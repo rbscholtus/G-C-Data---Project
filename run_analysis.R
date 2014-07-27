@@ -64,15 +64,15 @@ data$Activity <- factor(data$Activity, labels=activity.labels$V2)
 #
 
 # This has already been done by loading the data using:
-#     col.names=features$V2
-# where features$V2 is a vector with all feature labels
+#     col.names=features
+# where features is a vector with all feature labels
 
 #
 # PART 5: Creates a second, independent tidy data set with the average of each
 # variable for each activity and each subject.
 #
 
-# calculate averages for 
+# calculate averages for each Subject and Activity
 averages <- aggregate(data, list(data$Subject, data$Activity), mean)
 
 # tidy up column names
