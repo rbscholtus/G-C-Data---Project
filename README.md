@@ -108,5 +108,5 @@ also confirms tidyness of the layout I decided on.
 #### Final step
 
 The final step was to write the tidied dataset with averages to disk. I decided
-to write it to CSV format because this is easily portable. I included column
+to write it to a textfile because this is easily portable. I included column
 names, but omitted row names.

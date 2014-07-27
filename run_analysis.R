@@ -85,4 +85,4 @@ averages$Group.2 = NULL
 # LAST PART: Saves the averages to a file 
 #
 
-write.csv(averages, file="averages.csv", row.names=FALSE)
+write.table(averages, file="averages.txt", row.names=FALSE)
